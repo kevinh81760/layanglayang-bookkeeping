@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    /* File Layout */
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    /* Node Environment */
+    "target": "ES2020",                // Modern JS for Node
+    "module": "commonjs",              // Works best with Express/Node
+    "esModuleInterop": true,           // Fixes "cannot use import express" errors
+    "forceConsistentCasingInFileNames": true,
+
+    /* Type Safety */
+    "strict": true,
+    "skipLibCheck": true,
+
+    /* Debugging */
+    "sourceMap": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
